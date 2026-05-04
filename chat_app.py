@@ -68,10 +68,9 @@ def generate_mock_response(user_message : str) -> str:
     elif "what's your favorite place" in message:
         return "I don't have a physical location, but I think the internet is a fascinating place to explore!"
     
-    
     elif "bye" in message or "goodbye" in message:
         return "Goodbye! Have a great day!"
-    
+
 
 st.title("Chat App :speech_balloon:")
 
